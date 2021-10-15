@@ -44,7 +44,7 @@ describe('DashboardComponent', () => {
   });
 
   it('should display "Top Heroes" as headline', () => {
-    expect(fixture.nativeElement.querySelector('h3').textContent).toEqual('Top Heroes');
+    expect(fixture.nativeElement.querySelector('h3').textContent).toEqual('Top Heroes1');
   });
 
   it('should call heroService', async(() => {
